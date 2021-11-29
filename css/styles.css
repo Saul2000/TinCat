@@ -164,6 +164,9 @@ nav {
 .icons {
   margin: .5rem;
 }
+.icons:hover {
+  color: #ff4c68;
+}
 
 /* Custom Responsive Design */
 @media screen and (max-width:1500px){
@@ -183,7 +186,7 @@ nav {
   }
 }
 
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .main-img {
     width: 100%;
     height: 100%;
@@ -213,14 +216,18 @@ nav {
   .features {
     position: static;
   }
-}
+} */
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
   .container-fluid {
     padding: 1.5% 7.5% 3.5%;
   }
+  .main-title {
+    font-size: 4rem;
+  }
+
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .navbar {
     padding: 1rem;
@@ -234,20 +241,21 @@ nav {
   }
 
   .download-button {
-    width: 75%;
+    width: 60%;
+    height: 4rem;
     padding-bottom: 0;
   }
+  .main-img {
+    padding: 1rem 0 3rem;
+    width: 45%;
+    position: relative;
+    left: 100px;
+  }
 
-  .main-title {
+  .testimonial-h2, .h2 {
     font-size: 2.5rem;
   }
-  .main-img {
-    padding: 2rem 0;
-    width: 45%;
-    position: static;
-  }
-
-  .testimonial-h2 {
+  em{
     font-size: 1.5rem;
   }
   .testimonial-img {
