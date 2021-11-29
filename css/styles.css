@@ -184,6 +184,10 @@ nav {
   .features {
     position: static;
   }
+
+  .icons {
+    font-size: 10vh;
+  }
 }
 
 /* @media screen and (max-width:1200px){
@@ -285,6 +289,6 @@ nav {
   }
 
   .icons {
-    font-size: 10vh;
+    font-size: 6vh;
   }
 }
